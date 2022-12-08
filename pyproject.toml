@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "test-429"
+version = "0.1.0"
+description = ""
+authors = ["German Kuber <german.kuber@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.3"
+aiohttp-retry = "^2.8.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
